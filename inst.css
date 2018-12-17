@@ -1,0 +1,111 @@
+body
+{
+  font-family: 'Charm', cursive;
+}
+.main {
+  /* Сначала создадим flex-контекст */
+  display: flex;
+
+  /* Теперь определим направление потока и хотим ли мы, чтобы элементы
+  переносились на новую строку
+   * Помните, что это тоже самое, что и:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Теперь определим, как будет распределяться пространство */
+  justify-content: space-around;
+  border: 1px solid #ccc;
+}
+.logo {
+  /* Сначала создадим flex-контекст */
+  display: flex;
+
+  /* Теперь определим направление потока и хотим ли мы, чтобы элементы
+  переносились на новую строку
+   * Помните, что это тоже самое, что и:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Теперь определим, как будет распределяться пространство */
+  justify-content: space-around;
+
+}
+.flex-container2 {
+  /* Сначала создадим flex-контекст */
+  display: flex;
+
+  /* Теперь определим направление потока и хотим ли мы, чтобы элементы
+  переносились на новую строку
+   * Помните, что это тоже самое, что и:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Теперь определим, как будет распределяться пространство */
+  justify-content: flex-start;
+  border: 1px solid #ccc;
+
+}
+.flex-container2 img{
+border-radius: 1000px; /* Радиус скругления */
+border: 1px solid RED; /* Параметры рамки */
+box-shadow: 0 0 7px #f4429b; /* Параметры тени */
+align-items: center;}
+.flex-container3 {
+  /* Сначала создадим flex-контекст */
+  display: flex;
+
+  /* Теперь определим направление потока и хотим ли мы, чтобы элементы
+  переносились на новую строку
+   * Помните, что это тоже самое, что и:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Теперь определим, как будет распределяться пространство */
+  justify-content: space-around;
+  border: 1px solid #ccc;
+}
+.flex-container4 {
+  /* Сначала создадим flex-контекст */
+  display: flex;
+
+  /* Теперь определим направление потока и хотим ли мы, чтобы элементы
+  переносились на новую строку
+   * Помните, что это тоже самое, что и:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Теперь определим, как будет распределяться пространство */
+  justify-content: center;
+
+}
+.flex-container4 img{
+  width: 400px;
+  height: 250px;
+  padding: 10px;
+}
+.flex-container1 {
+  /* Сначала создадим flex-контекст */
+  display: flex;
+
+  /* Теперь определим направление потока и хотим ли мы, чтобы элементы
+  переносились на новую строку
+   * Помните, что это тоже самое, что и:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Теперь определим, как будет распределяться пространство */
+  justify-content: center;
+  border: 1px solid #ccc;
+}

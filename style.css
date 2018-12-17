@@ -1,0 +1,24 @@
+p {
+color: red;
+font-size: 30px; /* размер шрифта */}
+p:hover {color:green;}
+.head {
+  color:red;
+}
+#head1
+{  color:pink;}
+.head2
+{  color:green;}
+ol li {
+  color:purple;
+}
+@media (min-width:600px) and (max-width:1100px){
+  body {
+    background-color: purple;
+    color: red;
+  font-size: 80px; /* размер шрифта */}
+  }
+}
+@media print {
+body { color:green;
+} /* для мобильной версии */}
